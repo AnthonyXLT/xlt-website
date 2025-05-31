@@ -1,0 +1,23 @@
+import logo from './logo.svg';
+import React from 'react';
+
+const TOKEN_CURRENCY = 'XLT';      // Replace with your token code, e.g. 'XBCD'
+const TOKEN_ISSUER = 'r9gKZqNU9kuFx1bKxWwoDA8QZQtM8JoQdr'; // Replace with your issuer address
+
+function App() {
+  return (
+    <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: 600, margin: 'auto', padding: 20 }}>
+      <h1>Welcome to {TOKEN_CURRENCY} Token Website</h1>
+      <p><strong>Token Currency Code:</strong> {TOKEN_CURRENCY}</p>
+      <p><strong>Token Issuer Address:</strong> {TOKEN_ISSUER}</p>
+
+      <p>This is a simple informational page for your XRPL token.</p>
+
+      <footer style={{ marginTop: 40, fontSize: 12, color: '#666' }}>
+        &copy; 2025 Your Project Name
+      </footer>
+    </div>
+  );
+}
+
+export default App;
